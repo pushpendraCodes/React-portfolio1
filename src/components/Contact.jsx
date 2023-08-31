@@ -14,7 +14,7 @@ const Contact = () => {
         </div>
 
         <div className="">
-          <div className=" w-full bg-violet-700  sm:flex justify-between items-center p-5 rounded-lg text-white ">
+          <div className=" w-full bg-[#300949]  sm:flex justify-between items-center p-5 rounded-lg text-white ">
             <div className=" p-4 w-">
               <h1 className="text-3xl font-semibold ">Work Enquiry</h1>
               <p className="my-1 font-thin">
@@ -36,7 +36,7 @@ const Contact = () => {
               >
                 <button
                   style={{ width: "120px" }}
-                  class="rounded-md flex    bg-sky-500 p-2 gap-2 chat "
+                  class="rounded-md flex hover:bg-[#6a11a2] hover:scale-105   bg-[#871ec9] p-2 gap-2 chat "
                 >
 
                   Lets Chat <img src={chat} className="w-6 h-6" alt="" />{" "}
@@ -69,7 +69,7 @@ const Contact = () => {
         </div>
       </div>
 
-          <div  className="copyright p-4 bg-violet-700 ">
+          <div  className="copyright p-4 bg-[#300949] ">
           <p  className="text-center">
             Copyright ©{year} &nbsp; PushpendraCodes. All rights reserved{" "}
           </p>

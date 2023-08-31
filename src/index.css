@@ -13,7 +13,9 @@
         @apply cursor-pointer
     }
 }
-
+.active{
+    color: rgb(108, 5, 22);
+}
 .content-div {
     background-repeat: no-repeat;
     background-size: contain;

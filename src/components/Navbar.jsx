@@ -10,6 +10,7 @@ import {
   FaWhatsapp,
   FaTwitter,
 } from 'react-icons/fa';
+
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/programmer.png';
@@ -21,35 +22,36 @@ const Navbar = () => {
 
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-violet-700  text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#300949]  text-gray-300'>
       <div className='sm:px-5 flex items-center'>
         <img src={Logo} alt='Logo Image' style={{ width: '60px' }} />
-        <p className='font-medium font-serif'>pushpendraCodes</p>
+        <p className='font-medium font-serif'> pushpendraCodes </p>
       </div>
 
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li  className='hover:text-pink-800 hover:ease-in duration-500  '>
-          <Link to='home' smooth={true} duration={500}>
+        <li  className='hover:text-pink-800 list active font-semibold hover:ease-in duration-500  '>
+          <Link to='home' activeClass='active'
+  spy={true} smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='hover:text-pink-800 hover:ease-in duration-500 '>
+        <li className='hover:text-pink-800 list font-semibold hover:ease-in duration-500 '>
           <Link to='about' smooth={true} duration={500}>
             About me
           </Link>
         </li>
-        <li className='hover:text-pink-800 hover:ease-in duration-500 '>
+        <li className='hover:text-pink-800 list font-semibold hover:ease-in duration-500 '>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='hover:text-pink-800 hover:ease-in duration-500 '>
+        <li className='hover:text-red-900 list font-semibold hover:ease-in duration-500 '>
           <Link to='work' smooth={true} duration={500}>
             My Work
           </Link>
         </li>
-        <li className='hover:text-pink-800 hover:ease-in duration-500 '>
+        <li className='hover:text-pink-800 list font-semibold hover:ease-in duration-500 '>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
