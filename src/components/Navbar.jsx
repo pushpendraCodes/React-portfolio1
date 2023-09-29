@@ -24,8 +24,8 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#300949]  text-gray-300'>
       <div className='sm:px-5 flex items-center'>
-        <img src={Logo} alt='Logo Image' style={{ width: '60px' }} />
-        <p className='font-medium font-serif'> pushpendraCodes </p>
+        {/* <img src={Logo} alt='Logo Image' style={{ width: '60px' }} /> */}
+        <p className='text-3xl font-serif font-semibold'> pushpendra <span className='text-xl '>Patel</span> </p>
       </div>
 
       {/* menu */}
